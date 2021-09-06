@@ -1,5 +1,35 @@
-body {
-    color: rgb(0, 0, 0);
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-}
+
+.figuras {
+    display:inline-flex;
+    flex-direction:row;}
+
+    .figuras figure img {
+        width: auto;
+        height: auto;}
+        
+        .figuras figure img {
+        margin: auto;}
+
+         figcaption {
+            color:dodgerblue;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+            font-weight: bolder;}
+
+        header {
+            background-image: url("img/background.png");
+            background-size: 60%;
+            
+            height: 450px; 
+            background-color: limegreen;}
+
+            header h1 {
+                color:white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                position:relative;
+                top: 40%  }
+        
+                body, h1 {margin: 0px;} 
+            
+         
+
