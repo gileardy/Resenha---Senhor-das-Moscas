@@ -3,6 +3,24 @@
 
 <head>
         <title>Senhor das Moscas // Resenha</title>
+
+        <script>
+            
+            let zoom = 3;
+            function maior_menor() 
+            {const h1 = document.querySelector("h1");
+            h1.style.fontSize = `${zoom}em`;}
+
+    function maior() 
+    {zoom += 0.6;
+    maior_menor() }
+            
+    function menor() 
+    {if (zoom > 0) 
+    {zoom -= 0.6;
+    maior_menor();}}
+
+        </script>
         
              <style >
                  a   {
@@ -32,13 +50,11 @@
                   }
                      
                      ul.Personagens {list-style-image: url("img/lord-of-flies-icon.png");
-                     }
-
-                     
+                     }                    
 
         body {
         color: crimson; 
-            font-family:verdana ;}
+            font-family:Verdana ;}
             p {color: black;}
 
             h2 {color: white;
@@ -46,22 +62,16 @@
            
             h3 {color: green;}
 
-                     
-                    
-                    
-
-
-            
-            
-
-            
-        
              </style>
             
  </head>
 
         <body>
             <h1>Senhor das Moscas - William Golding</h1>
+
+            <button onclick="maior()">+</button>
+            <button onclick="menor()">-</button>
+
             <h3>Links de Utilidade:</h3>
             <nav>
                 <ul>
